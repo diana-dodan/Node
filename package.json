@@ -1,0 +1,19 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "start:dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Álvaro José Agámez Licha",
+  "license": "MIT",
+  "dependencies": {
+    "urlpattern-polyfill": "^10.0.0",
+    "uuid": "^9.0.1"
+  }
+}

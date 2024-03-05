@@ -43,7 +43,7 @@ defineRoute("POST", "/users", (req, res) => {
     res.statusCode = 400;
     res.end(
       JSON.stringify({
-        message: "Property name should be string"
+        message: "Nsame should be string"
       })
     )
     return;
@@ -97,6 +97,7 @@ defineRoute("PUT", "/users/:id", (req, res) => {
 
   res.setHeader("Content-Type", "application/json");
   res.statusCode = 200;
+
   res.end(
     JSON.stringify({
       message: `User was updated`,

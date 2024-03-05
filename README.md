@@ -1,19 +1,18 @@
-# Node.js HTTP Server
+# FooCoding Homework - Files
 
-Run `npm i` to install the NPM dependencies, to run the server run `npm run start:dev`.
+Using the CSV file provided, answer the following questions by reading the file using sequences, not the entire file at once.
 
-```
-node-http-server
- ┣ src
- ┃ ┣ utils
- ┃ ┃ ┣ define-route.js
- ┃ ┃ ┣ get-request-data.js
- ┃ ┃ ┗ route-matcher.js
- ┃ ┣ app.js     // app logic here, you should not modify this file
- ┃ ┣ routes.js  // Define your routes here
- ┃ ┗ server.js  // starts the server
- ┣ HOMEWORK.md
- ┣ README.md
- ┣ package-lock.json
- ┗ package.json
-```
+1. The total salary
+2. The average salary
+3. Minimun salary with the corresponding proffesion
+4. Maximum salary with the corresponding profession
+5. Minimun age
+6. Maximum age
+7. Write the results to a file called results.txt
+
+Total Salary: XXXX
+Average Salary: XXXX
+PROFESSION_NAME have the Minimun Salary: XXXX
+PROFESSION_NAME have the Maximum Salary: XXXX
+Minimun age: XX
+Maximum age: XX

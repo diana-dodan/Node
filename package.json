@@ -1,19 +1,15 @@
 {
-  "name": "node-http-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/server.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
-    "start:dev": "node --watch src/server.js"
-  },
-  "keywords": [],
-  "author": "Álvaro José Agámez Licha",
-  "license": "MIT",
   "dependencies": {
-    "urlpattern-polyfill": "^10.0.0",
-    "uuid": "^9.0.1"
-  }
+    "csv-parser": "^3.0.0"
+  },
+  "name": "homework-files-f",
+  "description": "Using the CSV file provided, answer the following questions by reading the file using sequences, not the entire file at once.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
